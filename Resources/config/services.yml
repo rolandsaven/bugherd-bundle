@@ -1,0 +1,7 @@
+parameters:
+  bugherd_sdk_class: Bugherd\Client
+
+services:
+  bugherd:
+      class: '%bugherd_sdk_class%'
+      arguments: ['%bugherd_api_key%']
