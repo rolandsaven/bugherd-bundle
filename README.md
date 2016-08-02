@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/rolandsaven/bugherd-bundle.svg?branch=master)](https://travis-ci.org/rolandsaven/bugherd-bundle)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rolandsaven/bugherd-bundle/master/LICENSE)
-[![Packagist](https://img.shields.io/packagist/v/rolandsaven/bugherd-bundle.svg](https://packagist.org/packages/rolandsaven/bugherd-bundle)
+[![Packagist](https://img.shields.io/packagist/v/rolandsaven/bugherd-bundle.svg)](https://packagist.org/packages/rolandsaven/bugherd-bundle)
 
 This is a Symfony 2-3 bundle to interact with the Bugherd API v2 via  [php-bugherd-api](https://github.com/beleneglorion/php-bugherd-api).
 
