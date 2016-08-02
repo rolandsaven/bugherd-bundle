@@ -38,7 +38,7 @@ public function registerBundles()
 }
 ```
 
-Obtain your BugHerd Api Key and add it to `config.yml`:
+To use the API, please generate an API key for your organization from within BugHerd, under **Settings > General Settings** and add it to `config.yml`:
 
 ```yaml
 bugherd:

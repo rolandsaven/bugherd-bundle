@@ -1,0 +1,28 @@
+{
+  "name": "rolandsaven/bugherd-bundle",
+  "description": "This is a Symfony 2-3 bundle to interact with the Bugherd API v2",
+  "homepage": "https://github.com/rolandsaven/bugherd-bundle",
+  "type" : "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Roland Kalocsaven",
+          "email": "rolandka@live.com"
+      }
+  ],
+  "keywords" : ["bugherd", "help desk", "bug tracker", "symfony", "support"],
+  "minimum-stability" : "stable",
+  "require": {
+    "php": ">=5.5",
+    "beleneglorion/php-bugherd-api": "dev-master"
+  },
+  "require-dev": {
+    "symfony/framework-bundle": "~2.3"
+  },
+  "autoload": {
+    "psr-4":
+    {
+      "RolandSaven\\": "src/RolandSaven"
+    }
+  }
+}
